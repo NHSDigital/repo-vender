@@ -1,0 +1,40 @@
+programme:
+  - name: nhs-repo-vending
+
+    repositories:
+      - name: example1
+        visibility: internal
+        template: https://github.com/nhs-england-tools/repository-template
+        groups:
+          - name: admins
+            role: admin
+          - name: users
+            role: write
+      - name: example2
+        visibility: public
+        template: https://github.com/nhs-england-tools/repository-template
+        groups:
+          - name: admins
+            role: admin
+
+
+    groups:
+      - name: admins
+        maintainers:
+          - ross
+        membership:
+          - ross
+      - name: users
+        maintainers:
+          - ross
+        membership:
+          - tim
+
+    members:
+      - name: ross
+        github: rossbugginsnhs
+        hscic: robu6
+        email: ross.buggins@nhs.net
+      - name: tim
+        github: tim.ireland
+        hscic: tiir
