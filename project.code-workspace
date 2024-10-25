@@ -1,8 +1,11 @@
 {
   "folders": [
     {
-      "name": "Repository Template",
+      "name": "Repo Vender Template",
       "path": "."
     }
-  ]
+  ],
+  "settings": {
+    "window.title": "Repo Vender"
+  }
 }
