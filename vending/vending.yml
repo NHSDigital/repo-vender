@@ -1,11 +1,11 @@
 programmes:
-  program_003:
-    name: nhs-lorum-programme-three
+  program_004:
+    name: nhs-lorum-programme-four
     default_maintainer: bob
     repositories:
       example_one:
         name: example-repo-1
-        visibility: private
+        visibility: internal
         template:
           owner: nhs-england-tools
           repository: repository-template
@@ -16,7 +16,7 @@ programmes:
             role: pull
       example_two:
         name: example-repo-2
-        visibility: private
+        visibility: internal
         template:
           owner: nhs-england-tools
           repository: repository-template
